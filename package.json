@@ -1,0 +1,30 @@
+{
+    "name": "rmbfe",
+    "version": "1.0.0",
+    "description": "just for work easy",
+    "main": "bin/index.js",
+    "bin": {
+        "rmbfe": "ila/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/huangjian008/cli.git"
+    },
+    "author": "huangjian008",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/huangjian008/cli/issues"
+    },
+    "homepage": "https://github.com/huangjian008/cli#readme",
+    "dependencies": {
+        "commander": "^3.0.0",
+        "liftoff": "^3.1.0",
+        "minimist": "^1.2.0",
+        "open": "^6.4.0",
+        "shelljs": "^0.8.3",
+        "signale": "^1.4.0"
+    }
+}
